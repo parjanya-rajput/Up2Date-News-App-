@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
     private fun fetchData() {
         // Instantiate the RequestQueue.
-        val url = "https://newsdata.io/api/1/news?apikey=pub_12758c1845ea7ed35c721426b0b929dfb1efd&country=in"
+        val url = "https://newsdata.io/api/1/news?apikey=pub_12758c1845ea7ed35c721426b0b929dfb1efd&country=in&category=top"
 
         // Request a string response from the provided URL.
         val jsonObjectRequest = JsonObjectRequest(
